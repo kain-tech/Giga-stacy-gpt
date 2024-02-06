@@ -1,0 +1,157 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url('imagens/imagem-de-fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 14px;
+    box-shadow: 0 1px 3px #FF24AB;
+    background-color: #340120;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo-mobile{
+    width: 100%;
+}
+
+#logo{
+    width: 10%;
+    border-radius: 35%;
+}
+
+#Comprar{
+    background-color: #FF24AB;
+    border-radius: 10%;
+    border: 0;
+    padding: 12px;
+}
+
+#Comprar:hover{
+    background-color: #D946A1;
+}
+
+#nav-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#l-compra{
+    text-decoration: none;
+    color: black;
+}
+
+#menu{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#b-menu{
+    background-color: #340120;
+    border: 0;
+}
+
+#social{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-items{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-items:hover{
+    color: #FF24AB;
+}
+
+.social{
+    color: #0271BB;
+}
+
+article{
+    background-color: #ff24ab9a;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5em;
+}
+
+#inicio-mobile{
+    width: 40%;
+}
+
+#telegram{
+    text-decoration: none;
+    color: black;
+}
+
+#telegram:hover{
+    text-decoration: underline;
+}
+
+#AoVivo{
+    background-color: #340120d0;
+    border: 1px solid #FF24AB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    border-radius: 11px;
+}
+
+.botao{
+    background-color: #FF24AB;
+    border-radius: 25px;
+    border: 0;
+    margin: 10px;
+    width: 20rem;
+    height: 3rem;
+}
+
+.botao:hover{
+    background-color: #D946A1;
+}
+
+#piqueteamento{
+    background-color: #340120d0;
+    border: 1px solid #FF24AB;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 11px;
+}
+
+#ende{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#endereco{
+    color: white;
+    margin-bottom: 0;
+}
