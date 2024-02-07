@@ -1,9 +1,9 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: #331226;
     background-image: url('imagens/imagem-de-fundo.png');
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 header{
@@ -154,4 +154,122 @@ article{
 #endereco{
     color: white;
     margin-bottom: 0;
+}
+
+#chat{
+    display: flex;
+    flex-direction: column;
+    background-color: #340120;
+    border: 1px solid #6C4A79;
+    margin: 15px;
+    border-radius: 11px;
+}
+
+#titulo-image{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid  #6C4A79;
+}
+
+#titulo{
+    display: flex;
+    flex-direction: column;
+}
+
+#mensagens{
+    height: 25vh;
+}
+
+#enviar{
+    border-top: 1px solid #6C4A79;
+    padding: 15px;
+}
+
+#text-area{
+    width: 20rem;
+    margin-right: 12px;
+    border-radius: 11px;
+    height: 3rem;
+    background-color: #6C4A79;
+    border: 0;
+    overflow-y: scroll;
+}
+
+#text-area::placeholder{
+    color: white;
+}
+
+#b-enviar{
+    background-color: #FF24AB;
+    border-radius: 11px;
+    border: 0;
+    width: 5rem;
+    height: 3rem;
+}
+
+#b-enviar:hover{
+    background-color: #D946A1;
+}
+
+#mensagem-env{
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#mensagem-rec{
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#info{
+    background-color: #340120;
+    display: flex;
+    flex-direction: column;
+}
+
+#aviso{
+    color: white;
+    border: 1px solid #6C4A79;
+    margin: 15px;
+    border-radius: 11px;
+}
+
+#l-aviso{
+    color: #FF24AB;
+    text-decoration: none;
+}
+
+#l-aviso:hover{
+    color: #6C4A79;
+}
+
+#b-telegram{
+    background-color: #FF24AB;
+    border: 0;
+    border-radius: 11px;
+    margin: 15px;
+    height: 2.5rem;
+}
+
+#AoVivo2{
+    background-color: #340120d0;
+    border: 1px solid #FF24AB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    border-radius: 11px;
+}
+
+#aud{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    text-align: center;
 }
