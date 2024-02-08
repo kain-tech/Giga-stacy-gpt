@@ -18,6 +18,7 @@ header{
     background-color: #340120;
     justify-content: space-around;
     align-items: center;
+    z-index: 999;
 }
 
 #logo-mobile{
@@ -183,11 +184,13 @@ article{
 #enviar{
     border-top: 1px solid #6C4A79;
     padding: 15px;
+    display: flex;
+    flex-direction: row;
 }
 
 #text-area{
     width: 20rem;
-    margin-right: 12px;
+    margin-right: 5px;
     border-radius: 11px;
     height: 3rem;
     background-color: #6C4A79;
@@ -243,6 +246,7 @@ article{
 
 #l-aviso:hover{
     color: #6C4A79;
+    text-decoration: underline;
 }
 
 #b-telegram{
@@ -250,7 +254,7 @@ article{
     border: 0;
     border-radius: 11px;
     margin: 15px;
-    height: 2.5rem;
+    height: 3rem;
 }
 
 #AoVivo2{
@@ -272,4 +276,9 @@ article{
     color: white;
     margin: 15px;
     text-align: center;
+}
+
+#aud:hover{
+    color: #FF24AB;
+    text-decoration: underline;
 }
