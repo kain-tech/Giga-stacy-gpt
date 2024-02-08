@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: #331226;
+    background-color: #331426;
     background-image: url('imagens/imagem-de-fundo.png');
     background-repeat: no-repeat;
 }
@@ -227,7 +227,7 @@ article{
 }
 
 #info{
-    background-color: #340120;
+    background-color: #461d35;
     display: flex;
     flex-direction: column;
 }
@@ -257,6 +257,10 @@ article{
     height: 3rem;
 }
 
+#b-telegram:hover{
+    background-color: #D946A1;
+}
+
 #AoVivo2{
     background-color: #340120d0;
     border: 1px solid #FF24AB;
@@ -281,4 +285,67 @@ article{
 #aud:hover{
     color: #FF24AB;
     text-decoration: underline;
+}
+
+#patrocinio{
+    background-color: #FF24AB;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+
+#pat1{
+    float: left;
+}
+
+#pat2{
+    float: right;
+}
+
+#Papel-branco{
+    background-color: #FF24AB;
+    border: 0;
+    border-radius: 11px;
+    margin: 1rem;
+    height: 3rem;
+    width: 10rem;
+}
+
+#Papel-branco:hover{
+    background-color: #D946A1;
+}
+
+#Bate-papo{
+    background-color: #FF24AB;
+    border: 0;
+    border-radius: 11px;
+    height: 3rem;
+    width: 13rem;
+}
+
+#Bate-papo:hover{
+    background-color: #D946A1;
+}
+
+#b-telegram2{
+    background-color: #FF24AB;
+    border: 0;
+    border-radius: 11px;
+    height: 3rem;
+    width: 15rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#b-telegram2:hover{
+    background-color: #D946A1;
+}
+
+#formu{
+    background-color: white;
+    height: 2rem;
+    width: 20rem;
+    margin-left: 1rem;
+    border-radius: 11px;
+    text-align: center;
 }
