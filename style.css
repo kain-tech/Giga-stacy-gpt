@@ -349,3 +349,30 @@ article{
     border-radius: 11px;
     text-align: center;
 }
+
+.vendido{
+    border: 1px solid #6C4A79;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;
+    border-radius: 11px;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+#pre{
+    background-color: #FF24AB;
+    border: 0;
+    border-radius: 11px;
+    margin: 15px;
+    height: 3rem;
+}
+
+#pre:hover{
+    background-color: #D946A1;
+}
+
+#toke{
+    background-color: #340120;
+}
