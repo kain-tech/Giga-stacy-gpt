@@ -350,6 +350,12 @@ article{
     text-align: center;
 }
 
+#vendidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .vendido{
     border: 1px solid #6C4A79;
     display: flex;
@@ -357,7 +363,7 @@ article{
     align-items: center;
     width: 15rem;
     border-radius: 11px;
-    margin-left: 2.5rem;
+    margin-left: 3rem;
     margin-top: 2rem;
 }
 
