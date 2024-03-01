@@ -388,3 +388,13 @@ article{
     flex-direction: row;
     margin-left: 1rem;
 }
+
+#li{
+    text-decoration: none;
+    color: #FF24AB;
+}
+
+#li:hover{
+    color: white;
+    text-decoration: underline;
+}
